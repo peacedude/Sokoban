@@ -1,0 +1,50 @@
+﻿#sokoban {
+    width: 608px;
+    height: 512px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.tile-wall {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    float: left;
+    background-color: black;
+    z-index: -10;
+}
+
+.tile-space {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    float: left;
+    background-color: white;
+    z-index: -10;
+}
+
+.tile-goal {
+    width: 32px;
+    
+    height: 32px;
+    position: relative;
+    float: left;
+    background-color: red;
+    z-index: -10;
+}
+
+.entity-player {
+    border: 10px solid green;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    z-index: 10;
+}
+
+.entity-block {
+    border: 10px solid yellow;
+    z-index: 10;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+}
